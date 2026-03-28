@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editorial Style Layout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Slab:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+
+    <!-- Main Content -->
+    <main id="main">
+      <div class="inner">
+
+        <!-- Header -->
+        <header id="header">
+          <a href="#" class="logo"><strong>Editorial</strong> Style</a>
+          <ul class="icons">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </header>
+
+        <!-- Hero / Banner -->
+        <section id="banner">
+          <div class="content">
+            <header>
+              <h1>Hi, I’m Your Website</h1>
+              <p>A clean and responsive editorial-style template</p>
+            </header>
+            <p>
+              Use this area for a short intro about your brand, portfolio,
+              magazine, business, or blog. Keep it clear and welcoming.
+            </p>
+            <ul class="actions">
+              <li><a href="#" class="button big">Learn More</a></li>
+            </ul>
+          </div>
+
+          <span class="image object">
+            <img src="images/hero.jpg" alt="Hero image" />
+          </span>
+        </section>
+
+        <!-- Features -->
+        <section>
+          <header class="major">
+            <h2>Features</h2>
+          </header>
+
+          <div class="features">
+            <article>
+              <span class="icon">★</span>
+              <div class="content">
+                <h3>Feature One</h3>
+                <p>Short description for your first feature or service.</p>
+              </div>
+            </article>
+
+            <article>
+              <span class="icon">⚡</span>
+              <div class="content">
+                <h3>Feature Two</h3>
+                <p>Short description for your second feature or service.</p>
+              </div>
+            </article>
+
+            <article>
+              <span class="icon">✉</span>
+              <div class="content">
+                <h3>Feature Three</h3>
+                <p>Short description for your third feature or service.</p>
+              </div>
+            </article>
+
+            <article>
+              <span class="icon">✔</span>
+              <div class="content">
+                <h3>Feature Four</h3>
+                <p>Short description for your fourth feature or service.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Posts / Articles -->
+        <section>
+          <header class="major">
+            <h2>Latest Articles</h2>
+          </header>
+
+          <div class="posts">
+            <article>
+              <a href="#" class="image"><img src="images/post-1.jpg" alt=""></a>
+              <h3>Article One</h3>
+              <p>A short summary of the article or project goes here.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">More</a></li>
+              </ul>
+            </article>
+
+            <article>
+              <a href="#" class="image"><img src="images/post-2.jpg" alt=""></a>
+              <h3>Article Two</h3>
+              <p>A short summary of the article or project goes here.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">More</a></li>
+              </ul>
+            </article>
+
+            <article>
+              <a href="#" class="image"><img src="images/post-3.jpg" alt=""></a>
+              <h3>Article Three</h3>
+              <p>A short summary of the article or project goes here.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">More</a></li>
+              </ul>
+            </article>
+
+            <article>
+              <a href="#" class="image"><img src="images/post-4.jpg" alt=""></a>
+              <h3>Article Four</h3>
+              <p>A short summary of the article or project goes here.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">More</a></li>
+              </ul>
+            </article>
+
+            <article>
+              <a href="#" class="image"><img src="images/post-5.jpg" alt=""></a>
+              <h3>Article Five</h3>
+              <p>A short summary of the article or project goes here.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">More</a></li>
+              </ul>
+            </article>
+
+            <article>
+              <a href="#" class="image"><img src="images/post-6.jpg" alt=""></a>
+              <h3>Article Six</h3>
+              <p>A short summary of the article or project goes here.</p>
+              <ul class="actions">
+                <li><a href="#" class="button">More</a></li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div class="inner">
+
+        <!-- Search -->
+        <section id="search" class="alt">
+          <form method="post" action="#">
+            <input type="text" name="query" placeholder="Search" />
+          </form>
+        </section>
+
+        <!-- Menu -->
+        <nav id="menu">
+          <header class="major">
+            <h2>Menu</h2>
+          </header>
+          <ul>
+            <li><a href="#">Homepage</a></li>
+            <li><a href="#">Generic</a></li>
+            <li><a href="#">Elements</a></li>
+            <li>
+              <span class="opener">Submenu</span>
+              <ul>
+                <li><a href="#">Option One</a></li>
+                <li><a href="#">Option Two</a></li>
+                <li><a href="#">Option Three</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Another Link</a></li>
+            <li><a href="#">Another Link</a></li>
+          </ul>
+        </nav>
+
+        <!-- Mini Posts -->
+        <section>
+          <header class="major">
+            <h2>Recent Posts</h2>
+          </header>
+          <div class="mini-posts">
+            <article>
+              <a href="#" class="image"><img src="images/thumb-1.jpg" alt=""></a>
+              <p>Short sidebar post description.</p>
+            </article>
+            <article>
+              <a href="#" class="image"><img src="images/thumb-2.jpg" alt=""></a>
+              <p>Short sidebar post description.</p>
+            </article>
+            <article>
+              <a href="#" class="image"><img src="images/thumb-3.jpg" alt=""></a>
+              <p>Short sidebar post description.</p>
+            </article>
+          </div>
+          <ul class="actions">
+            <li><a href="#" class="button">More</a></li>
+          </ul>
+        </section>
+
+        <!-- Contact -->
+        <section>
+          <header class="major">
+            <h2>Get in Touch</h2>
+          </header>
+          <p>
+            Add your contact text here. Keep it short and direct.
+          </p>
+          <ul class="contact">
+            <li>Email: hello@example.com</li>
+            <li>Phone: (000) 000-0000</li>
+            <li>Address: 123 Main Street, Your City</li>
+          </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+          <p class="copyright">
+            &copy; 2026 Your Website. All rights reserved.
+          </p>
+        </footer>
+
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
